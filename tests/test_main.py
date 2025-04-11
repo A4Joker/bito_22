@@ -4,7 +4,7 @@
 import pytest
 from src.main import process_data, display_results
 
-def test_process_data():
+def test_process_data()
     result = process_data()
     assert isinstance(result, dict)
     assert result["repo_number"] == 22
